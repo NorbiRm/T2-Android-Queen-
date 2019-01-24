@@ -19,6 +19,14 @@ public class SongActivity extends AppCompatActivity {
         String file = "";
         if(string.equals("bohemian")){
             file = getFile("bohemian.txt");
+        }else if(string.equals("anotherone")){
+            file = getFile("anotherone.txt");
+        }else if(string.equals("breakfree")){
+            file = getFile("abreakfree.txt");
+        }else if(string.equals("dont")){
+            file = getFile("dont.txt");
+        }else if(string.equals("flash")){
+            file = getFile("flash.txt");
         }
         textView.setText(file);
     }
