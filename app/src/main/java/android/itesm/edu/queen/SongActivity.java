@@ -17,13 +17,13 @@ public class SongActivity extends AppCompatActivity {
 
         String string = getIntent().getStringExtra("file");
         String file = "";
-        if(string.equals("bohemian")){
+        if(string.equals("bohemian")|| string.equals("Bohemian Rhapsody")){
             file = getFile("bohemian.txt");
-        }else if(string.equals("anotherone")){
+        }else if(string.equals("anotherone")|| string.equals("Another One Bites The Dust")){
             file = getFile("anotherone.txt");
-        }else if(string.equals("breakfree")){
+        }else if(string.equals("breakfree")|| string.equals("I Want To Break Free")){
             file = getFile("abreakfree.txt");
-        }else if(string.equals("dont")){
+        }else if(string.equals("dont")|| string.equals("Don´t Stop Me Now")){
             file = getFile("dont.txt");
         }else if(string.equals("flash")){
             file = getFile("flash.txt");

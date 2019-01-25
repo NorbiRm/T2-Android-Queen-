@@ -8,8 +8,8 @@
 
     <Button
         android:id="@+id/bohemian"
-        android:layout_width="176dp"
-        android:layout_height="242dp"
+        android:layout_width="162dp"
+        android:layout_height="130dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="51dp"
         android:layout_marginBottom="8dp"
@@ -29,8 +29,8 @@
 
     <Button
         android:id="@+id/anotherone"
-        android:layout_width="174dp"
-        android:layout_height="242dp"
+        android:layout_width="170dp"
+        android:layout_height="120dp"
         android:layout_marginStart="236dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
@@ -51,10 +51,10 @@
 
     <Button
         android:id="@+id/site"
-        android:layout_width="177dp"
+        android:layout_width="386dp"
         android:layout_height="51dp"
         android:layout_marginTop="8dp"
-        android:layout_marginEnd="51dp"
+        android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
         android:background="@color/colorAccent"
         android:onClick="sing"
@@ -65,17 +65,16 @@
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/bohemian"
         app:layout_constraintVertical_bias="1.0" />
 
     <Button
-        android:id="@+id/random"
-        android:layout_width="177dp"
+        android:id="@+id/randomB"
+        android:layout_width="382dp"
         android:layout_height="51dp"
         android:layout_marginTop="8dp"
-        android:layout_marginEnd="51dp"
+        android:layout_marginEnd="8dp"
         android:background="@android:color/holo_green_light"
         android:onClick="sing"
         android:text="random"
@@ -85,15 +84,14 @@
         android:textSize="24sp"
         app:layout_constraintBottom_toTopOf="@+id/site"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/bohemian"
         app:layout_constraintVertical_bias="1.0" />
 
     <Button
         android:id="@+id/dont"
-        android:layout_width="174dp"
-        android:layout_height="255dp"
+        android:layout_width="152dp"
+        android:layout_height="108dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
@@ -112,8 +110,8 @@
 
     <Button
         android:id="@+id/flash"
-        android:layout_width="174dp"
-        android:layout_height="255dp"
+        android:layout_width="159dp"
+        android:layout_height="117dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"

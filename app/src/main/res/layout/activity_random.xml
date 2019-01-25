@@ -8,7 +8,7 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="151dp"
+        android:layout_width="326dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
@@ -28,7 +28,7 @@
         android:layout_height="125dp"
         android:background="@android:color/holo_red_light"
         android:onClick="done"
-        android:text="Done"
+        android:text="Go to song!"
         android:textAllCaps="false"
         android:textColor="@android:color/background_light"
         android:textSize="30sp"
